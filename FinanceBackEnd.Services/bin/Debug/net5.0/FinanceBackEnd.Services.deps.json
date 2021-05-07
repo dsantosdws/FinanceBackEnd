@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "FinanceBackEnd.Services/1.0.0": {
+        "dependencies": {
+          "FinanceBackEnd.Models": "1.0.0"
+        },
+        "runtime": {
+          "FinanceBackEnd.Services.dll": {}
+        }
+      },
+      "FinanceBackEnd.Models/1.0.0": {
+        "runtime": {
+          "FinanceBackEnd.Models.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FinanceBackEnd.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FinanceBackEnd.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
