@@ -13,6 +13,8 @@ namespace FinanceBackEnd.Api
 {
     public class Startup
     {
+        readonly string MyAllowSpecificOrigins = "TryInvest";
+
         private string GetConnectionString() 
             => Configuration.GetConnectionString("DefaultConnection");
 
@@ -33,7 +35,14 @@ namespace FinanceBackEnd.Api
                     , ServerVersion.AutoDetect(this.GetConnectionString())
                     , optionsBuilder => optionsBuilder.MigrationsAssembly("FinanceBackEnd.Api")));
 
+            services.AddCors(options => {
+                options.AddDefaultPolicy(builder => {
+                    builder.WithOrigins("http://localhost:3000");
+                });
+            });
+
             services.AddControllers();
+            
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "FinanceBackEnd.Api", Version = "v1" });
@@ -52,11 +61,11 @@ namespace FinanceBackEnd.Api
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "FinanceBackEnd.Api v1"));
             }
 
-            app.UseHttpsRedirection();
+            //app.UseHttpsRedirection();
 
             app.UseRouting();
-
-            app.UseAuthorization();
+            app.UseCors();
+            //app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
             {

@@ -2,7 +2,6 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using FinanceBackEnd.Infrastructure;
 using FinanceBackEnd.Infrastructure.Repositories;
 using FinanceBackEnd.Models.Entitys;
 using Microsoft.AspNetCore.Http;

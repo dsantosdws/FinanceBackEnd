@@ -2,7 +2,6 @@
 /home/dawis/Documentos/workspace/FinanceBackEnd/FinanceBackEnd.Models/bin/Debug/net5.0/FinanceBackEnd.Models.dll
 /home/dawis/Documentos/workspace/FinanceBackEnd/FinanceBackEnd.Models/bin/Debug/net5.0/ref/FinanceBackEnd.Models.dll
 /home/dawis/Documentos/workspace/FinanceBackEnd/FinanceBackEnd.Models/bin/Debug/net5.0/FinanceBackEnd.Models.pdb
-/home/dawis/Documentos/workspace/FinanceBackEnd/FinanceBackEnd.Models/obj/Debug/net5.0/FinanceBackEnd.Models.csprojAssemblyReference.cache
 /home/dawis/Documentos/workspace/FinanceBackEnd/FinanceBackEnd.Models/obj/Debug/net5.0/FinanceBackEnd.Models.GeneratedMSBuildEditorConfig.editorconfig
 /home/dawis/Documentos/workspace/FinanceBackEnd/FinanceBackEnd.Models/obj/Debug/net5.0/FinanceBackEnd.Models.AssemblyInfoInputs.cache
 /home/dawis/Documentos/workspace/FinanceBackEnd/FinanceBackEnd.Models/obj/Debug/net5.0/FinanceBackEnd.Models.AssemblyInfo.cs
@@ -10,3 +9,4 @@
 /home/dawis/Documentos/workspace/FinanceBackEnd/FinanceBackEnd.Models/obj/Debug/net5.0/FinanceBackEnd.Models.dll
 /home/dawis/Documentos/workspace/FinanceBackEnd/FinanceBackEnd.Models/obj/Debug/net5.0/ref/FinanceBackEnd.Models.dll
 /home/dawis/Documentos/workspace/FinanceBackEnd/FinanceBackEnd.Models/obj/Debug/net5.0/FinanceBackEnd.Models.pdb
+/home/dawis/Documentos/workspace/FinanceBackEnd/FinanceBackEnd.Models/obj/Debug/net5.0/FinanceBackEnd.Models.csproj.AssemblyReference.cache
